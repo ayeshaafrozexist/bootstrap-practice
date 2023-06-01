@@ -1,0 +1,44 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.box, .box2{
+	background-color: rgb(235, 111, 111);
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.box, .box2{
+	background-color: rgb(193, 225, 188);
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.box, .box2{
+	background-color: rgb(196, 125, 227);
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.box, .box2{
+	background-color: rgb(255, 0, 106);
+}
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	.box, .box2{
+	background-color: rgb(72, 134, 165);
+}	
+}
+
+/*Extra extra large devices (large desktops, 1900px and up)*/
+@media (min-width: 1900px) {
+	.box, .box2{
+	background-color: rgb(219 23 146 / 22%);
+}
